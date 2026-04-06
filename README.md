@@ -17,7 +17,6 @@ A simple payment API built with FastAPI that lets you:
 - Web: FastAPI
 - Server: uvicorn
 - DB: PostgreSQL
-- ORM/DB layer: SQLAlchemy
 
 ## Python Packages Used
 

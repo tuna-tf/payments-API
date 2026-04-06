@@ -1,0 +1,31 @@
+    await conn.execute("""
+        CREATE TABLE users (
+            UserID SERIAL PRIMARY KEY, 
+            Name varchar(255) NOT NULL,
+            Balance INT
+        );
+    """)
+
+    await conn.execute("""
+            INSERT INTO users (UserID, Name, Balance) VALUES
+                (1, 'TunTun', 100),
+                (2, 'Motu', 250),
+                (3, 'Patlu', 175),
+                (4, 'Golu', 300),
+                (5, 'Sonu', 120),
+                (6, 'Monu', 450),
+                (7, 'Raju', 90),
+                (8, 'Shyam', 600),
+                (9, 'Bheem', 700),
+                (10, 'Chutki', 350),
+                (11, 'Jaggu', 220),
+                (12, 'Kalia', 80),
+                (13, 'Dholu', 140),
+                (14, 'Bholu', 160),
+                (15, 'Pinky', 510),
+                (16, 'Rocky', 275),
+                (17, 'Sweety', 330),
+                (18, 'Bunty', 190),
+                (19, 'Guddu', 410),
+                (20, 'Bablu', 260);
+    """)

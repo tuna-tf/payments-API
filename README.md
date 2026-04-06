@@ -22,7 +22,6 @@ A simple payment API built with FastAPI that lets you:
 
 - `fastapi`
 - `uvicorn[standard]`
-- `sqlalchemy`
 - `asyncpg`
 - `pydantic`
 
